@@ -4,6 +4,15 @@
     "description": "A Pastel Coloured VS Code Theme",
     "version": "0.0.1",
     "publisher": "harleytorrisi",
+    "homepage": "https://github.com/Harley-Torrisi/Paselefull/blob/main/README.md",
+    "icon": "images/Extention_Icon.png",
+    "galleryBanner": {
+        "color": "#79addc",
+        "theme": "dark"
+    },
+    "author": {
+        "name": "Harley Torrisi"
+      },
     "repository": {
         "type": "git",
         "url": "https://github.com/Harley-Torrisi/Paselefull.git"
