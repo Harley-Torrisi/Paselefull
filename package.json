@@ -3,6 +3,14 @@
     "displayName": "Pastelefull",
     "description": "A Pastel Coloured VS Code Theme",
     "version": "0.0.1",
+    "publisher": "harleytorrisi",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Harley-Torrisi/Paselefull.git"
+    },
+    "keywords": [
+        "theme", "dark", "dark theme", "pastel"
+    ],
     "engines": {
         "vscode": "^1.59.0"
     },
