@@ -14,6 +14,161 @@
 		}
 	},
 	"tokenColors":[
+		//CSS
+		{
+			"name": "Style",
+			"scope": [
+				"entity.name.tag.css",
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.id.css",
+				"punctuation.definition.entity.css"
+			],
+			"settings": {
+				"foreground": "#8DC994"
+			}
+		},
+		{
+			"name": "Prop",
+			"scope": [
+				"support.type.property-name.css",
+			],
+			"settings": {
+				"foreground": "#79ADDC"
+			}
+		},
+		{
+			"name": "Val",
+			"scope": [
+				"support.constant.property-value.css",
+				"constant.numeric.css",
+				"keyword.other.unit.px.css"
+			],
+			"settings": {
+				"foreground": "#DFB656"
+			}
+		},
+		{
+			"name": "Val Mod",
+			"scope": [
+				"keyword.other.unit.px.css",
+				"keyword.other.unit.em.css",
+				"keyword.other.unit.vh.css",
+				"keyword.other.unit.vw.css",
+				"keyword.other.unit.cm.css",
+				"keyword.other.unit.mm.css",
+				"keyword.other.unit.in.css",
+				"keyword.other.unit.pt.css",
+				"keyword.other.unit.pc.css",
+				"keyword.other.unit.ex.css",
+				"keyword.other.unit.ch.css",
+				"keyword.other.unit.rem.css",
+				"keyword.other.unit.vmin.css",
+				"keyword.other.unit.vmax.css",
+				"keyword.other.unit.%.css"
+			],
+			"settings": {
+				"foreground": "#FFAC81"
+			}
+		},
+
+		//Javascript
+		{
+			"name": "Function",
+			"scope": [
+				"storage.type.function.js"
+			],
+			"settings": {
+				"foreground": "#BDB4F3"
+			}
+		},
+
+		// HTML
+		{
+			"name": "Tags",
+			"scope": [
+				"entity.name.tag.html"
+			],
+			"settings": {
+				"foreground": "#79ADDC",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation.definition.string.begin.html",
+				"punctuation.definition.string.end.html"
+			],
+			"settings": {
+				"foreground": "#BDB2FF",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Atributes/Props",
+			"scope": [
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#BDB2FF",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Atributes/Props Values",
+			"scope": [
+				"string.quoted.double.html"
+			],
+			"settings": {
+				"foreground": "#F8F8FF9D"
+			}
+		},
+		{
+			"name": "Raw",
+			"scope": [
+				"text.html.derivative"
+			],
+			"settings": {
+				"foreground": "#F8F8FF9D"
+			}
+		},
+
+		//Json
+		{
+			"name": "Props",
+			"scope": [
+				"support.type.property-name.json",
+				"punctuation.support.type.property-name.begin.json",
+				"punctuation.support.type.property-name.end.json"
+			],
+			"settings": {
+				"foreground": "#79ADDC",
+				"fontStyle": "bold"
+			},
+		},
+		{
+			"name": "Props Quotes",
+			"scope": [
+				"punctuation.support.type.property-name.begin.json",
+				"punctuation.support.type.property-name.end.json"
+			],
+			"settings": {
+				"foreground": "#3d7eb8",
+				"fontStyle": "bold"
+			},
+		},
+		{
+			"name": "Vals",
+			"scope": [
+				"string.quoted.double.json",
+				"constant.numeric.json"
+			],
+			"settings": {
+				"foreground": "#dfb656",
+				"fontStyle": "bold"
+			},
+		},
+
 		//C# and Default
 		{
 			"name": "Comments Start",
@@ -129,7 +284,8 @@
 				"keyword.other.class",
 				"keyword.type",
 				"keyword.other.struct",
-				"keyword.other.new"
+				"keyword.other.new",
+				"keyword.other.namespace"
 			],
 			"settings": {
 				"foreground": "#bdb4f3"
